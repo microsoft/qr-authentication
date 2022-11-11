@@ -1,0 +1,12 @@
+<!--
+  ~
+  ~ Copyright (c) Microsoft Corporation. All rights reserved.
+  ~ Licensed under the MIT License.
+  ~
+  -->
+
+<resources>
+    <string name="app_name">QR Authentication</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_out">Sign Out</string>
+</resources>
