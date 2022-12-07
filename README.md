@@ -8,6 +8,8 @@ This project is meant to demonstrate how you can add this improved authenticatio
 3.	Detect and analyze a QR code,
 4.	Pass the value to the MSAL library to autopopulate the UPN field.
 
+This sample leverages [CameraX (CameraX  |  Android Developers)](https://developer.android.com/jetpack/androidx/releases/camera) and [Zxing (GitHub - zxing/zxing: ZXing ("Zebra Crossing") barcode scanning library for Java, Android)](https://github.com/zxing/zxing) to power the end-to-end solution.
+
 This solution is expected to be used in tandem with [Shared Device Mode (SDM)](https://learn.microsoft.com/en-us/azure/active-directory/develop/msal-shared-devices), a technology that automatically performs single sign-on and enables single sign-out for users on shared devices. By using SDM, employees will only need to sign-in once and get automatic access to all other applications on the device without needing to provide additional credentials.
 
 If your employees already have badges or nametags, we recommend printing the QR codes on stickers and attaching them to the back of them. If your employees do not have badges or nametags, you can also store the QR codes in personal areas (e.g., employee locker) or in a backroom area (e.g., next to the physical time clock). Because these QR codes only contain the UPN, it is safe to put them in common employee areas.
